@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Артемий Иванов | Портфолио</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f77600b8df.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="light-theme">
+    <header>
+        <div class="header_left">
+            <div class="profile">
+                <i class="fas fa-user-circle avatar"></i>
+                <h1 class="name">Я — Артемий Иванов</h1>
+            </div>
+            <div class="bio">
+                <p>Мне 14 лет, и я учусь в Алгоритмике.</p>
+                <p>Я люблю программирование, компьютерные игры, фокусы и математические задачи. Учусь играть на гитаре.
+                    Я живу в Нидерландах и у меня две кошки: Максим и Милана. Я свободно говорю по-голландски. Например: Dit is een van de makkelijkste zinnen zonder betekenis die je kan uitspreken.
+                    В настоящее время я учусь на третьем курсе гимназии: это высший уровень среднего образования в Нидерландах. Здесь другая система образования: восемь лет начальной школы, затем шесть лет средней школы и наконец, университет.
+                </p>
+                <p>Начал заниматься программированием в 2025 году.</p>
+            </div>
+        </div>
+
+        <div class="links">
+            <a href="#contacts" class="btn">📬 Контакты</a>
+            <a href="https://learn.algoritmika.org/student-profile?profileId=1670358" class="btn" target="_blank">📘 Мой
+                профиль</a>
+            <button id="theme-toggle" class="btn theme-btn">🌙 Тёмная тема</button>
+        </div>
+        <hr class="separator">
+    </header>
+
+    <main>
+        <section id="courses" class="projects">
+            <h2 class="curses-text">📚 Курсы</h2>
+            <div class="courses-grid">
+                <div class="course-card scratch"><i class="fab fa-scratch"></i> Scratch</div>
+                <div class="course-card python"><i class="fab fa-python"></i> Python</div>
+                <div class="course-card roblox"><i class="fas fa-gamepad"></i> Roblox Game Designing</div>
+                <div class="course-card photo"><i class="fas fa-camera"></i> Photoshop / Photo Editing</div>
+                <div class="course-card blender"><i class="fas fa-cube"></i> 3D Modelling in Blender</div>
+                <div class="course-card frontend"><i class="fas fa-code"></i> Frontend: HTML/CSS/JS</div>
+            </div>
+        </section>
+
+        <hr class="separator">
+
+        <section id="contacts" class="contacts">
+            <h2>📞 Контакты</h2>
+            <div class="email" id="email-block">
+                <span id="email-address">624434@mijnschoolnet.nl</span>
+                <button id="copy-email" class="btn copy-btn">📋 Копировать</button>
+            </div>
+            <p id="copy-message" class="hidden">Скопировано!</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_content">
+            Создано мной в 2026 | Алгоритмика
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
